@@ -1,0 +1,6 @@
+conda create -n faceswapping python=3.7
+conda activate faceswapping
+conda install -c conda-forge opencv
+conda install -c conda-forge dlib
+conda install -c anaconda requests
+pip install mediapipe

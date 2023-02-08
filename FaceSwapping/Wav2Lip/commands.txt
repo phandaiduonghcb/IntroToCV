@@ -1,0 +1,8 @@
+# sudo apt-get update
+# sudo apt-get install ffmpeg
+conda activate wav2lip
+conda create --name wav2lip python=3.6
+pip3 install --upgrade pip
+pip3 install -r requirements.txt
+
+python inference.py --checkpoint_path wav2lip_gan.pth --face 1000.mp4 --audio audio.wav

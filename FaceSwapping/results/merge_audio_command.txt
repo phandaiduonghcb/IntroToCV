@@ -1,0 +1,1 @@
+ffmpeg -i before.mp4 -i audio.wav -c:v copy -c:a aac before_audio.mp4
